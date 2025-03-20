@@ -1,0 +1,19 @@
+{
+  "name": "spotify-game-autopilot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "open": "^10.1.0",
+    "request": "^2.88.2"
+  }
+}
