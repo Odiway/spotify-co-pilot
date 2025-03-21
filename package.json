@@ -1,19 +1,21 @@
 {
-  "name": "spotify-game-autopilot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2",
-    "node-fetch": "^3.3.2",
-    "open": "^10.1.0",
-    "request": "^2.88.2"
-  }
+    "name": "spotify-copilot",
+    "version": "1.0.0",
+    "description": "Spotify Co-Pilot that automatically plays music based on active applications",
+    "main": "spotify-copilot.js",
+    "type": "module",
+    "bin": {
+        "spotify-copilot": "./spotify-copilot.js"
+    },
+    "scripts": {
+        "start": "node spotify-copilot.js"
+    },
+    "dependencies": {
+        "active-win": "^8.1.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "git": "^0.1.5",
+        "node-fetch": "^3.3.2",
+        "open": "^9.1.0"
+    }
 }
